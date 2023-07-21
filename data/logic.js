@@ -3,11 +3,11 @@ canvas = cns.getContext('2d')
 
 var assa = setInterval(update, 1)
 
-var temp_head = 1 // Лицо
-var temp_face = 1 // Глаза
-var temp_mouth = 1 // Рот
-var temp_hear = 1 // Волосы
-var temp_accs = 1 // Аксы
+var temp_head = 2 // Лицо
+var temp_face = 2 // Глаза
+var temp_mouth = 2 // Рот
+var temp_hear = 4 // Волосы
+var temp_accs = 3 // Аксы
 
 var head_max = 4 // Максимальное число голов
 var face_max = 2 // Макс. число глаз
@@ -118,9 +118,9 @@ function update_person(){
 	}
 
 	setTimeout(draw_face, 60)
-	setTimeout(draw_mouth, 20)
-	setTimeout(draw_hear, 20)
-	setTimeout(draw_accs, 20)
+	setTimeout(draw_mouth, 40)
+	setTimeout(draw_hear, 40)
+	setTimeout(draw_accs, 40)
 }
 
 function draw_face(){
