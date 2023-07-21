@@ -117,10 +117,10 @@ function update_person(){
 		canvas.drawImage(head, cns.width/2-200, 50, cns.width/2+150, 300)
 	}
 
-	setTimeout(draw_face, 50)
-	setTimeout(draw_mouth, 50)
-	setTimeout(draw_hear, 50)
-	setTimeout(draw_accs, 50)
+	setTimeout(draw_face, 60)
+	setTimeout(draw_mouth, 20)
+	setTimeout(draw_hear, 20)
+	setTimeout(draw_accs, 20)
 }
 
 function draw_face(){
